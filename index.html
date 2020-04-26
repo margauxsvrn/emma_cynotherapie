@@ -8,6 +8,8 @@
     <!--Police-->
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
 
+    <script src="https://kit.fontawesome.com/655edc4fae.js" crossorigin="anonymous"></script>
+
     <link rel="shortcut icon" type="image/x-icon" href="pic/logo-emma.ico" />
 
 
@@ -17,6 +19,7 @@
 
 <body>
 
+    <!--MENU BARRE DE NAVIGATION-->
 <header>
 
 <nav>
@@ -24,16 +27,17 @@
 <hr class="ligne_menu">
 <div class="menu">
 <div><a href="#qui">Qui suis-je?</a></div>
-<div><a href="#serviceslink"> Mes services</a></div>
-<div>Contactez-moi</div>
+<div><a href="#serviceslink">Mes services</a></div>
+<div><a href="#contactlink">Contactez-moi</a></div>
 </div>
 <hr class="ligne_menu2">
 </nav>
 
 </header>
-
+    <!--IMAGE CENTRALE-->
 <img class="jumbotron" src="pic/chien.jpg" alt="illustration chien maître">
 
+    <!--QUI SUIS-JE?-->
 <section>
 <div class="block_description">
     <h1 id="qui" class="description_tittle">Qui suis-je?</h1>
@@ -41,9 +45,10 @@
 </div>
 </section>
 
+    <!--MES SERVICES-->
 <section>
     <hr class="ligne_1">
-    <h1 id="serviceslink" class="titre_services">Mes services</h1>
+    <h1 id="serviceslink" class="titre">Mes services</h1>
     <hr class="ligne">
     <div class="services">
         
@@ -60,6 +65,42 @@
         </div>
 
     </div>
+</section>
+
+    <!--CONTACTEZ-MOI-->
+<section>
+<hr class="ligne_1">
+<h1 id="contactlink" class="titre">Contactez-moi</h1>
+<hr class="ligne">
+
+<div class="contact">
+    <address><strong>Emma Samzun</strong> <br>
+        3 avenue dupont <br>
+        34070 Montpellier <br><br>
+        <span class="tel">Tel:</span><br> 06.12.23.34.45 <br> <br>
+        <span class="tel">Email:</span><br> emmasamzun@gmail.com
+    </address>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92442.68379699667!2d3.804121346055293!3d43.61000057036598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6af0725dd9db1%3A0xad8756742894e802!2sMontpellier!5e0!3m2!1sfr!2sfr!4v1587642040721!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+<i class="fas fa-angle-double-down"></i>
+<div class="formulaire">
+    
+    <p>Donnez moi vos coordonnées et je m'occupe de vous recontacter!</p>
+    <form action="" method="POST" class="form">
+        <label for="Nom">Nom et prénom : </label>
+        <input type="text" name="Nom" id="nom"> <br>
+        <label for="Tel">Numéro de téléphone : </label>
+        <input type="number" name="Tel" id="tel"> <br>
+        <label for="Email">Adresse email : </label>
+        <input type="email" name="Email" id="email"> <br>
+        <label for="text">Si vous le souhaitez, vous pouvez me laisser un mot afin que je sache l'object de votre demande : </label>
+        <input type="text" name="text" id="text">
+    </form>
+</div>
+
+
+
+
 </section>
 
 

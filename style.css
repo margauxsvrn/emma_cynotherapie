@@ -10,7 +10,7 @@ h1 {
 
 p {
     font-family: arial;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .services h2 {
@@ -100,7 +100,7 @@ a {
     border-radius: 3px;
 }
 
-.titre_services {
+.titre {
     
     text-align: center;
 }
@@ -147,3 +147,48 @@ a {
 }
 
 
+.contact {
+    display: flex;
+    text-align: justify;
+    margin: 10%;
+}
+address {
+    margin-right: 20%;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.tel {
+    text-decoration: underline;
+}
+
+iframe {
+    border-radius: 3px;
+}
+
+i {
+  margin-left: 50%;
+  margin-right: 50%;
+  color:#c79e7b;  
+  font-size: 60px;
+  margin-bottom: 5%;
+
+}
+
+.formulaire p {
+    font-family:'Source Serif Pro', Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    margin-bottom: 8%;
+}
+.formulaire {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
