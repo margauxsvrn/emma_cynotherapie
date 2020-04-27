@@ -74,28 +74,44 @@
 <hr class="ligne">
 
 <div class="contact">
-    <address><strong>Emma Samzun</strong> <br>
+    <p class="address"><strong>Emma Samzun</strong> <br>
         3 avenue dupont <br>
-        34070 Montpellier <br><br>
-        <span class="tel">Tel:</span><br> 06.12.23.34.45 <br> <br>
-        <span class="tel">Email:</span><br> emmasamzun@gmail.com
-    </address>
+        34070 Montpellier <br><br><br>
+        <strong>TEL</strong> 
+        <br> <br>
+        06.12.23.34.45 
+        <br><br><br>
+        <strong>EMAIL</strong> 
+        <br> <br>
+        emmasamzun@gmail.com
+    </p>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92442.68379699667!2d3.804121346055293!3d43.61000057036598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6af0725dd9db1%3A0xad8756742894e802!2sMontpellier!5e0!3m2!1sfr!2sfr!4v1587642040721!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </div>
 <i class="fas fa-angle-double-down"></i>
 <div class="formulaire">
     
     <p>Donnez moi vos coordonnées et je m'occupe de vous recontacter!</p>
-    <form action="" method="POST" class="form">
-        <label for="Nom">Nom et prénom : </label>
-        <input type="text" name="Nom" id="nom"> <br>
-        <label for="Tel">Numéro de téléphone : </label>
-        <input type="number" name="Tel" id="tel"> <br>
-        <label for="Email">Adresse email : </label>
-        <input type="email" name="Email" id="email"> <br>
-        <label for="text">Si vous le souhaitez, vous pouvez me laisser un mot afin que je sache l'object de votre demande : </label>
-        <input type="text" name="text" id="text">
-    </form>
+
+    <form action="" method="post" class="form">
+
+        <label for="nom">NOM</label>
+        <input type="text" name="nom" id="nom" placeholder="Nom et prénom"> <br> <br>
+
+        <label for="tel">TÉLÉPHONE</label>
+        <input type="tel" name="tel" id="tel" placeholder="Numéro de téléphone"> <br><br>
+
+        <label for="email">EMAIL</label> 
+        <input type="email" name="email" id="email" placeholder="Email"> 
+        <br><br>
+
+        <label for="text">SI VOUS VOULEZ M'EN DIRE PLUS</label>
+        <br>
+        <textarea id="text" cols="40" rows="10" placeholder="en tapant juste ici..."></textarea>
+
+        <input class="buttonsend" type="submit" value="Envoyer">
+
+    </form> <br>
+   
 </div>
 
 
